@@ -1,60 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/hero.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 
     <title>Brasa Nobre</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                 <img src="" alt="logo">
+        <div class="container">
+            <div class="flex">
+                <i class="fa-solid fa-fire">Brasa Nobre</i>
             </div>
-            <ul>
-                <li>
-                    <a href="#home">Inicio</a>
-                </li>
-                <li>
-                    <a href="#about">Sobre</a>
-                </li>
-                <li>
-                    <a href="#cardapio">Cardapio</a>
-                </li>
-                <li>
-                    <a href="#special">Especialidade</a>
-                </li>
-                <li>
-                    <a href="#galeria">Galeria</a>
-                </li>
-                <li>
-                    <a href="#reservation">Reservas</a>
-                </li>
-                <li>
-                    <a href="#contacts">Contatos</a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#cardapio">Cardapio</a>
+                    </li>
+                    <li>
+                        <a href="#special">Especialidade</a>
+                    </li>
+                    <li>
+                        <a href="#galeria">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#reservation">Reservas</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="hero_content">
-            <h1>Brasa Nobre</h1>
-            <p class="hero_content">Sabores que transformam momentos em memórias.</p>
-            <p class="hero_content">Carnes nobres, ingredientes selecionados e uma experiência gastronômica única em um ambiente elegante e acolhedor.</p>        
-        </div>
-        <div class="hero_btn">
-            <button id="reservar">
-                Reservar mesa
-            </button>
-            <button id="ver-cardapio">
-                Ver Cardapio
-            </button>
-        </div>
-        <div class="hero_cta">
-            <img src="" alt="cta">
-        </div>
+        <section class="hero">
+            <div class="hero_content">
+                <p class="text1">Sabores que transformam momentos em memórias.</p>
+                <p class="text2">Carnes nobres, ingredientes selecionados e uma experiência gastronômica única em um
+                    ambiente elegante e acolhedor.</p>
+            </div>
+            <div class="hero_btn">
+                <button class="reservar">
+                    Reservar mesa
+                </button>
+                <button class="ver-cardapio">
+                    Ver Cardapio
+                </button>
+            </div>
+
+            <div class="hero_stats">
+
+                <div class="stat_card">
+                    <div class="stat_icon">⭐</div>
+
+                    <div class="stat_info">
+                        <h2>4.9/5</h2>
+                        <p>Avaliação Google</p>
+                    </div>
+                </div>
+
+                <div class="stat_card">
+                    <div class="stat_icon">👥</div>
+                    <div class="stat_info">
+                        <h2>+12.000</h2>
+                        <p>Clientes Atendidos</p>
+                    </div>
+                </div>
+                <div class="stat_card">
+                    <div class="stat_icon">🔥</div>
+                    <div class="stat_info">
+                        <h2>15</h2>
+                        <p>Anos de Tradição</p>
+                    </div>
+                </div>
+                <div class="stat_card">
+                    <div class="stat_icon">🏆</div>
+                    <div class="stat_info">
+                        <h2>40+</h2>
+                        <p>Pratos Exclusivos</p>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
     </main>
 </body>
+
 </html>

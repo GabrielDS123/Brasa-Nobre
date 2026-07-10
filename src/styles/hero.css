@@ -1,0 +1,135 @@
+.hero{
+    min-height:100vh;
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,.65),
+    rgba(0,0,0,.65)),
+    url("../img/hero.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:180px 50px 80px;
+}
+.hero_content{
+    max-width:700px;
+}
+.text1{
+    font-family:"Playfair Display",serif;
+    font-size:82px;
+    line-height:80px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.text2{
+    font-size:30px;
+    color:var(--text-secondary);
+    line-height:34px;
+    max-width:600px;
+}
+.hero_btn{
+    display:flex;
+    gap:20px;
+    margin-top:45px;
+}
+.reservar{
+    background:var(--primary);
+    color:white;
+    border:none;
+    padding:18px 36px;
+    border-radius:8px;
+    font-size:30px;
+    cursor:pointer;
+    transition:.35s;
+}
+.reservar:hover{
+    background:var(--primary-hover);
+    transform:translateY(-4px);
+}
+.ver-cardapio{
+    background:transparent;
+    border:2px solid var(--primary);
+    color:white;
+    padding:18px 36px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size: 30px;
+    transition:.35s;
+}
+.ver-cardapio:hover{
+    background:var(--primary);
+}
+.hero_stats{
+    display:flex;
+    gap:30px;
+    margin-top:70px;
+    flex-wrap:wrap;
+}
+.stat_card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    background:rgba(20,20,20,.8);
+    backdrop-filter:blur(10px);
+    padding:18px 25px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:12px;
+    transition:.4s;
+}
+.stat_card:hover{
+    transform:translateY(-8px);
+    border-color:var(--primary);
+}
+.stat_icon{
+    width:55px;
+    height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#222;
+    font-size:24px;
+}
+.stat_info h2{
+    color:var(--primary);
+    font-size:28px;
+}
+.stat_info p{
+    color:var(--text-secondary);
+    font-size:15px;
+}
+@media(max-width:992px){
+.hero{
+    padding:160px 30px 60px;
+}
+.text1{
+    font-size:54px;
+    line-height:62px;
+}
+.hero_btn{
+    flex-direction:column;
+}
+.hero_stats{
+    justify-content:center;
+ }
+}
+@media(max-width:768px){
+.container{
+    padding:0 20px;
+}
+.navbar{
+    display:none;
+}
+.text1{
+    font-size:42px;
+    line-height:52px;
+}
+.text2{
+    font-size:18px;
+}
+.stat_card{
+    width:100%;
+   }
+}
