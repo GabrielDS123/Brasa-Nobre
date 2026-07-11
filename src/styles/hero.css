@@ -70,7 +70,7 @@
 .stat_card{
     display:flex;
     align-items:center;
-    gap:18px;
+    gap:20px;
     background:rgba(20,20,20,.8);
     backdrop-filter:blur(10px);
     padding:18px 25px;
@@ -98,7 +98,7 @@
 }
 .stat_info p{
     color:var(--text-secondary);
-    font-size:15px;
+    font-size:20px;
 }
 @media(max-width:992px){
 .hero{
